@@ -1,6 +1,9 @@
-int		main(int ac, char **av)
+#include	"Trade.hh"
+
+int		main()
 {
-  (void)av;
-  (void)ac;
+  Trade		*trade = new Trade();
+
+  trade->run();
   return (0);
 }

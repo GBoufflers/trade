@@ -12,6 +12,11 @@ INCLUDES=			-I core/headers/ \
 CPPFLAGS=			-O3 -W -Wall -Wextra $(INCLUDES)
 
 SRC=				core/src/main.cpp\
+				core/src/intToString.cpp\
+				core/src/stringToInt.cpp\
+				core/src/floatToString.cpp\
+				core/src/stringToFloat.cpp\
+				class/src/Trade.cpp
 
 OBJ=				$(SRC:.cpp=.o)
 
